@@ -1,0 +1,107 @@
+<body>
+<h2>fibonacci</h2>
+  <div id="input">
+        
+    <p>istediğiniz sayı miktarını giriniz: </p>
+    <input value="" type="text" name="" id="girilenSayi"></input>
+    <button id="uret" onclick="uret(document.getElementById('girilenSayi').value );">Üret</button>
+ 
+  </div>
+</body>
+<script>
+    function uret( donusDegeri ){
+      
+      console.log( donusDegeri );
+    }
+  </script>
+  <script>
+    var fib = 1;
+    var lastNumb = 1;
+    var tempory = 0;
+    function uret( donusDegeri ){
+        console.log( fib );
+    }
+    </script>
+    <script>
+        var fib = 1;
+        var lastNumb = 1;
+        var tempory = 0;
+        function uret( donusDegeri ){    
+          
+          console.log( fib );  
+          for( var i = 0 ; i < donusDegeri ; i++ ){
+            //donusDegeri sayısı kadar veri üretecek blok
+          }
+        }
+        </script>
+        <script> fib = tempory + lastNumb; // sayi = (n-2) + (n-1)
+        fib = tempory + lastNumb; // sayi = (n-2) + (n-1)
+lastNumb = fib; // n-1 = fib 
+fib = tempory + lastNumb; // sayi = (n-2) + (n-1)
+tempory = lastNumb; //n-2 = n-1
+lastNumb = fib; // n-1 = fib </script>
+<script>
+    var fib = 1;
+    var lastNumb = 1; 
+    var tempory = 0;
+         
+    function uret( donusDegeri ){
+      
+      console.log( fib );
+      
+      for( var i = 0 ; i < donusDegeri ; i++ ){
+        fib = tempory + lastNumb;
+        tempory = lastNumb;
+        lastNumb = fib;
+        console.log( fib );
+      }
+    }
+  </script>
+  <script>
+  var fibArr = [ 1, 1 ];
+  var fib = 0;
+  var tempory = 0;
+  function uret( donusDegeri ){
+
+    fib = fibArr[i-1] + fibArr[i];
+    fibArr.push( fib );
+}
+var x = [13, 1, 2, 3];
+x[0] == 13; // true
+x[1] == 1 ; // true
+x[2] == 2; //true
+x[3] == 3; //true
+x.length == 4 //true
+function uret( girilenSayi ){
+    console.log( fibArr[0] ); // ilk elemanı yazdiralim.   
+    for( var i = 1 ; i < girilenSayi ; i++ ){
+      fib = fibArr[i-1] + fibArr[i];
+      fibArr.push( fib );
+    }
+  }
+  function uret( girilenSayi ){
+  
+    console.log( fibArr[0] );
+    
+    for( var i = 1 ; i < girilenSayi ; i++ ){
+      fib = fibArr[i-1] + fibArr[i];
+      fibArr.push( fib );
+    
+    }
+    fibArr.forEach( function( element ){
+      console.log( element );
+    });
+  }
+  var fibArr = [1, 1];
+var fib = 0;
+function uret( girilenSayi ){
+  console.log( fibArr[0] );
+  
+  for( var i = 1 ; i < girilenSayi ; i++ ){
+    fib = fibArr[i-1] + fibArr[i];
+    fibArr.push( fib );
+  }
+  fibArr.forEach( function( element ){
+    console.log( element );
+  });
+}</script>
