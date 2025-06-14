@@ -1,0 +1,8 @@
+Hafta 8:
+
+Kullanıcıdan alınan sayı kadar Fibonacci dizisi üretmek için JavaScript ile fonksiyon yazıldı.
+
+Başlangıçta dizi [1, 1] olarak tanımlandı.  
+Girilen sayı kadar döngü ile dizinin son iki elemanının toplamı hesaplanıp diziye eklendi.  
+Dizi elemanları her adımda konsola yazdırıldı.  
+Kodda farklı denemeler yapılarak doğru algoritma oluşturuldu.
