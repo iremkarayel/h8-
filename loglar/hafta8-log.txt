@@ -1,0 +1,5 @@
+Hafta 8:
+
+JavaScript ile Fibonacci dizisi üretimi ve konsola yazdırılması yapıldı.
+
+
